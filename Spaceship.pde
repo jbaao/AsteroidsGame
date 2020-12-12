@@ -23,5 +23,6 @@ public void hyperspace()
   myXspeed=0;
   myCenterX= (Math.random()*500)+5;
   myCenterY= (Math.random()*500)+5;
+  myPointDirection=(Math.random()*360);
 }
 }
