@@ -25,4 +25,17 @@ public void hyperspace()
   myCenterY= (Math.random()*500)+5;
   myPointDirection=(Math.random()*360);
 }
+public void setX (int x){
+  myCenterX=x;
+}
+public double getX(){
+  return (float)myCenterX;
+}
+public void setY(int y){
+  myCenterY=y;
+}
+public double getY(){
+  return (float)myCenterY;
+}
+
 }
