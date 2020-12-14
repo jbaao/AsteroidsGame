@@ -22,7 +22,7 @@ public void draw()
   }
 ship.move();
 ship.show();
-{
+
   for(int i=0; i<stroidNum;i++)
   {
     float distance =dist((float)stroid.get(i).getX(),(float)stroid.get(i).getY(),(float)ship.getX(),(float)ship.getY());
@@ -35,7 +35,7 @@ ship.show();
        stroid.get(i).show();
       stroid.get(i).move();
     }
-}
+
 }
 }
 
