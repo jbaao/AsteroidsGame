@@ -20,10 +20,10 @@ class Asteroid extends Floater
    }
   public double getX()
   {
-    return(float)myCenterX;
+    return (float)myCenterX;
   }
   public double getY()
   {
-    return(float)myCenterY;
+    return (float)myCenterY;
   }
 }
