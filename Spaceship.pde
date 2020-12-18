@@ -37,5 +37,20 @@ public void setY(int y){
 public double getY(){
   return (float)myCenterY;
 }
-
+  public double getDirection()
+   {
+     return myPointDirection;
+   }
+   public double getXspeed()
+    {
+      return myXspeed;
+    }
+    public double getYspeed()
+    {
+      return myYspeed;
+    }
+    public double getPoint()
+    {
+      return myPointDirection;
+    }
 }
